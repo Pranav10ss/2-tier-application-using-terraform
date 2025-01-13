@@ -24,3 +24,7 @@ terraform {
   }
 }
 ```
+### ACM Certificate
+Go to AWS console --> AWS Certificate Manager (ACM) and make sure you have a valid certificate in Issued status, if not, create one and use the domain name on which you are planning to host your application.
+### Route 53 hosted Zone
+Go to AWS Console --> Route53 --> Hosted Zones and ensure you have a public hosted zone available, if not create one.
