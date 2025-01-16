@@ -1,6 +1,7 @@
 # 2-tier application on AWS cloud using terraform
 Two-tier architecture, also known as client-server architecture, is a software design pattern that divides an application into two main parts or tiers: the client tier and the server tier. Each tier has specific responsibilities and interacts with each other to provide functionality to end-users.
 ## 🏠Architecture
+![Diagram explaining the architecture of this project](Images/2-tier-arch.svg)
 
 ### Create S3 Backend Bucket
 * Create an S3 bucket to store the .tfstate file in the remote backend. Backend is nothing but a storage location inside AWS, from where you are accessing your tf.state file.
